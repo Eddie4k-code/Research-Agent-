@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "create_analysts": "research_agent.creating_analysts:graph"
+    },
+    "env": ".env"
+}
