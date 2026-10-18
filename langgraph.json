@@ -1,7 +1,9 @@
 {
     "dependencies": ["."],
     "graphs": {
-        "create_analysts": "research_agent.creating_analysts:graph"
+        "create_analysts": "research_agent.creating_analysts:graph",
+        "questions": "research_agent.questions:graph",
+        "research_agent": "research_agent.agent:graph"
     },
     "env": ".env"
 }
